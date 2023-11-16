@@ -77,6 +77,10 @@ struct CoinListView: View {
             LazyVStack {
                 ForEach(viewModel.coins) { coin in
                     CoinRowView(coin: coin)
+                    
+                    
+                    
+                    
                         .onTapGesture {
                             // Handle tap to show CoinDetailView
                         }
